@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Montserrant"; 
+    src: url(TTF/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Medium"; 
+    src: url(TTF/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url(TTF/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "ligth";
+    src: url(TTF/Montserrat-Light.ttf)
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: "Medium";   
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h1 {
+    position: relative;
+    left: 20px;
+    font-family: "Medium";
+    font-size: 25px;
+}
+
+h3 {
+    font-family: "Medium";
+    font-size: 15px;
+}
+
+p {
+    position: relative;
+    left: 20px;
+}
+
+body {
+    background: url("https://i.postimg.cc/pVQTJxD8/Design-sem-nome-9.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.linha-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    position: relative;
+}
+
+.linha {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    display: flex;
+    z-index: 0;
+}
+
+.linha-verde {
+    flex: 1;
+    background: #e1f339; 
+}
+
+.linha-branca {
+    flex: 1;
+    background: white;
+}
+
+
+.link-esquerda {
+    font-size: 18px;
+    text-align: center;
+    font-family: "ligth";
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-left: 70px;
+}
+
+.link-direita {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+     margin-right: 70px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 80px;
+    width: 400px;
+}
+
+.formulario label {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    color: black;
+}
+
+input::placeholder {
+    color: #888;
+    font-family: "Medium";
+}
+
+.cadastrar {
+    display: block;
+    text-align: center;
+    background: #e1f339;
+    color: #ffffff;
+    padding: 14px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
