@@ -13,7 +13,7 @@ Este trabalho busca promover a correção de textos dissertativos-argumentativos
 * Correção de redações
 * Aba de duvidas e dicas
 
-[Link de acesso do Fluxograma](https://www.canva.com/design/DAGk7qH24fU/D4M2eBIw-WDbuk6ANZWkGg/edit?utm_content=DAGk7qH24fU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Link de acesso do Fluxograma](https://www.canva.com/design/DAGs5V4h4bo/G0Tm6MKnd6LU9z3UuGf4-A/edit?utm_content=DAGs5V4h4bo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Autores do projeto
 * [/Sarinhaamrl](github.com/sarinhaamrl)
