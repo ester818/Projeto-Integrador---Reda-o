@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Montserrant"; 
+    src: url(TTF/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Medium"; 
+    src: url(TTF/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url(TTF/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "ligth";
+    src: url(TTF/Montserrat-Light.ttf)
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+}
+
+.documento {
+    position: relative;
+    top: 10%;
+    text-align: justify;
+    left: 10%;
+}
+
+.documento1 {
+    position: relative;
+    top: 10%;
+    text-align: justify;
+    left: 10%;
+}
+
+.banner {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.banner img {
+  width: 100%;     
+  height: auto;    
+  border: none;    
+  display: block;   
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: #fff;     
+}
+
+.site-footer {
+    position: relative;
+    top: 20%;
+    background-color: #5642bb;
+    color: #ffffff;
+    padding: 10px;
+    font-family: "Medium";
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #ffffff;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}

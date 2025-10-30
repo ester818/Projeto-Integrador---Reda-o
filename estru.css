@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Montserrant"; 
+    src: url(TTF/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Medium"; 
+    src: url(TTF/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url(TTF/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "ligth";
+    src: url(TTF/Montserrat-Light.ttf)
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(255, 85, 0);
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch; 
+}
+
+.bloco, .bloco1 {
+    width: 300px;
+    padding: 26px;
+    box-sizing: border-box;
+    background-color: rgb(201, 238, 54);
+    border: 1px solid rgb(201, 238, 54);
+    border-radius: 30px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.desvol {
+    font-size: 180%;
+}
+
+.bloco1 {
+    height: 293px;
+    padding: 30px;
+}
+
+.bloco h2,
+.bloco1 h2 {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: left;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        align-items: center;    
+        gap: 20px;
+    }
+
+.bloco, .bloco1 {
+        width: 90%;          
+        margin-top: 40px;   
+    }
+
+    p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
+
+.site-footer {
+    position: relative;
+    top: 20%;
+    background-color: #5642bb;
+    color: #ffffff;
+    padding: 10px;
+    font-family: "Medium";
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #ffffff;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}

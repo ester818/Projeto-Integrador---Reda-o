@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Montserrant"; 
+    src: url(TTF/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Medium"; 
+    src: url(TTF/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url(TTF/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "ligth";
+    src: url(TTF/Montserrat-Light.ttf)
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+}
+
+.texto1 {
+    position: absolute;
+    bottom: 15%; 
+    left: 5%;
+    right: 50%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.5;
+    max-width: 500px; 
+}
+
+.texto2 {
+    position: absolute;
+    bottom: 18%;
+    right: 5%;
+    left:65%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: right;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+/* RESPONSIVIDADE — tablet */
+@media (max-width: 992px) {
+    .texto1, .texto2 {
+        position: static;
+        text-align: center;
+        max-width: 90%;
+        margin: 20px auto;
+        font-size: 1rem;
+    }
+}
+
+/* RESPONSIVIDADE — celular */
+@media (max-width: 600px) {
+    .texto1, .texto2 {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+}

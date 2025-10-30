@@ -1,0 +1,149 @@
+body {
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+header {
+    background: #eeeeee;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #cccccc;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card-small {
+    background: #f0f0f0;
+    padding: 10px;
+    width: calc(33.33% - 10px);
+    border: 1px solid #cccccc;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+}
+
+.hero {
+    background: #4444aa;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.competencia {
+    border: 1px solid #4444aa;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn-aluno {
+  border-radius: 20px; 
+  border: 2px solid #333; 
+  padding: 8px 20px;
+  transition: 0.3s;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    background: #4444aa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+
+
+@font-face {
+    font-family: "Montserrant"; 
+    src: url(TTF/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Medium"; 
+    src: url(TTF/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url(TTF/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "ligth";
+    src: url(TTF/Montserrat-Light.ttf)
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Medium";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: "Medium";   
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Medium";
+    font-size: 25px;
+}
+
+h3 {
+    font-family: "ligth";
+    font-size: 15px;
+}
