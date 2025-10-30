@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content:right;
+    gap: 20px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.navbar a.active {
+    font-weight: bold;
+}
+
+.aluno-btn {
+    margin-left: auto;
+    margin-right: 20px;
+    border: 1px solid black;
+    background: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    color: #7a4cd4;
+    margin-bottom: 20px;
+}
+
+.container label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#tema {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #eee;
+    border: 2px solid #7a4cd4;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.enviar-btn {
+    background-color: #c5ff47;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.enviar-btn:hover {
+    background-color: #b0e63e;
+}
+enviar-btn {
+    background-color: #c5ff47;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.enviar-btn:hover {
+    background-color: #b0e63e;
+}
