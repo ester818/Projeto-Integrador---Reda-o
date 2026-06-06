@@ -16,3 +16,13 @@ Formulário para envio de redações
 Interface intuitiva e responsiva  
 Organização dos critérios de correção do ENEM  
 Acesso gratuito para todos os usuários
+
+ Autores do projetp
+- Ester Cristhine (https://github.com/ester818)
+- Sara (https://github.com/sarinhaamrl)
+- Karol (https://github.com/karolithz)
+- Ivo (https://github.com/ivopf1808)
+- Giovanna (https://github.com/gimontem)
+- Gabriel (https://github.com/Faluba1)
+- Duda (https://github.com/duda-f)
+- Rafael (https://github.com/ALEXT0SPIR0SE)
