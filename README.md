@@ -6,7 +6,7 @@ Uma plataforma gratuita desenvolvida para auxiliar estudantes na preparação pa
 O projeto tem como objetivo democratizar o acesso à correção de redações, permitindo que estudantes recebam feedbacks e aprimorem suas competências de escrita para alcançar melhores resultados no ENEM.
 
 Acesse a versão online do projeto:
-(https://ester818.github.io/Projeto-Integrador---Reda-o/)
+
 
 
 ## Funcionalidades
