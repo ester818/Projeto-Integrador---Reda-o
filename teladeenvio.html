@@ -6,23 +6,33 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
-
-        <nav class="navbar">
-            <a href="">Sobre nós</a>
-            <a href="">Como Funciona</a>
-            <a href="" class="active">Enviar sua redação</a>
-            <button class="aluno-btn">Já sou aluno</button>
-        </nav>
-    
+    <nav class="navbar">
+        <a href="ser-corretor.html">Como Funciona</a>
+        <a href="index.html" class="active">Enviar sua redação</a>
+        <button class="aluno-btn">Já sou aluno</button>
+    </nav>
 
     <main class="container">
+        <a href="index.html" class="voltar-btn">← Voltar à tela principal</a>
+
         <form action="Telaenvio.html" method="GET">
             <h1>Vamos começar!</h1>
-           <input type="text" id="tema" name="tema" 
-                placeholder='Exemplo: “Políticas para enfrentamento da evasão escolar”'>
-                <textarea name="redacao" placeholder="Escreva ou cole sua redação aqui..."></textarea>
-            <button class="enviar-btn" Type="submit">Enviar redação</button>
+
+            <input
+                type="text"
+                id="tema"
+                name="tema"
+                placeholder="Exemplo: Políticas para enfrentamento da evasão escolar"
+            >
+
+            <textarea
+                name="redacao"
+                placeholder="Escreva ou cole sua redação aqui..."
+            ></textarea>
+
+            <button class="enviar-btn" type="submit">
+                Enviar redação
+            </button>
         </form>
     </main>
 </body>
