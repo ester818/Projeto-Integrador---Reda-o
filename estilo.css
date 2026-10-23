@@ -1299,3 +1299,176 @@ body {
     color: #000000;
     margin-top: 0;
 }
+
+
+/* RESPONSIVIDADE - LOGIN E CADASTRO */
+
+body:has(.linha-container) {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 20px;
+    overflow-x: hidden;
+}
+
+body:has(.linha-container) .container {
+    width: 100%;
+    max-width: 700px;
+    min-height: auto;
+    margin: 0 auto;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    box-sizing: border-box;
+}
+
+body:has(.linha-container) .linha-container {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+body:has(.linha-container) .linha {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+body:has(.linha-container) .link-esquerda,
+body:has(.linha-container) .link-direita {
+    position: relative;
+    z-index: 1;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px 4px;
+    font-size: clamp(14px, 2vw, 18px);
+    white-space: nowrap;
+}
+
+body:has(.linha-container) .formulario {
+    width: 100%;
+    max-width: 520px;
+    margin: 64px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    box-sizing: border-box;
+}
+
+body:has(.linha-container) .formulario label {
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+body:has(.linha-container) .formulario input {
+    width: 100%;
+    max-width: 100%;
+    min-height: 54px;
+    height: auto;
+    padding: 14px 16px;
+    border: 1px solid #dddddd;
+    border-radius: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Medium", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body:has(.linha-container) .formulario .esq {
+    font-size: 14px;
+    text-align: right;
+}
+
+body:has(.linha-container) .formulario .entrar,
+body:has(.linha-container) .formulario .cadastrar {
+    width: 100%;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    margin-top: 12px;
+    border-radius: 28px;
+    background-color: #e1f339;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* TABLETS */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body:has(.linha-container) {
+        padding: 40px;
+    }
+
+    body:has(.linha-container) .container {
+        max-width: 680px;
+    }
+
+    body:has(.linha-container) .linha-container,
+    body:has(.linha-container) .formulario {
+        max-width: 560px;
+    }
+
+    body:has(.linha-container) .formulario input {
+        min-height: 58px;
+    }
+}
+
+/* CELULARES */
+@media (max-width: 599px) {
+    body:has(.linha-container) {
+        padding: 24px 20px;
+    }
+
+    body:has(.linha-container) .container {
+        padding: 20px 0;
+    }
+
+    body:has(.linha-container) .linha-container {
+        gap: 8px;
+    }
+
+    body:has(.linha-container) .link-esquerda,
+    body:has(.linha-container) .link-direita {
+        font-size: 14px;
+    }
+
+    body:has(.linha-container) .formulario {
+        margin-top: 56px;
+        gap: 12px;
+    }
+
+    body:has(.linha-container) .formulario label {
+        font-size: 15px;
+    }
+
+    body:has(.linha-container) .formulario input {
+        min-height: 50px;
+        font-size: 16px;
+    }
+}
+
+/* COMPUTADORES */
+@media (min-width: 1025px) {
+    body:has(.linha-container) .container {
+        max-width: 760px;
+    }
+
+    body:has(.linha-container) .linha-container,
+    body:has(.linha-container) .formulario {
+        max-width: 520px;
+    }
+}
