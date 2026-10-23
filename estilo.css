@@ -1276,3 +1276,22 @@ body {
         justify-content: center;
     }
 }
+/* Ajustes finais da tela de envio */
+.container {
+    display: block;
+}
+
+.navbar .aluno-btn {
+    color: #000000;
+    margin-top: 0;
+}
+
+.container .enviar-btn {
+    color: #000000;
+    align-self: flex-start;
+    margin-top: 0;
+}
+
+.container textarea {
+    margin-bottom: 0;
+}
