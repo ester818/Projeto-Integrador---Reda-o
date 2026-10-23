@@ -1295,3 +1295,7 @@ body {
 .container textarea {
     margin-bottom: 0;
 }
+.navbar .aluno-btn {
+    color: #000000;
+    margin-top: 0;
+}
